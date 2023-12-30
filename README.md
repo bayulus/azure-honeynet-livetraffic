@@ -1,4 +1,4 @@
-# Azure Sentinel: Real-Time Threat Detection and Global Geospatial Analysis
+# Azure Sentinel: Real-Time Threat Detection + SOC + Honeynet
 
 <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/Blue%20Minimalist%20Profesional%20Personal%20Linkedln%20Banner.png?raw=true" >
 
@@ -62,7 +62,7 @@ With the Log Analytics workspace successfully configured and connected to the ho
    - <h3>Visualization of Attack Maps After Hardening Security/Controls</h3>
    <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/7.PNG?raw=true">
 
-  - <h3>Query Result Failed RDP Events Showing Attack Metrics</h3>
+  - <h3>Query Result of Failed RDP Events Showing Attack Metrics</h3>
   <p>The query result below also reveals a compilation of usernames utilized by attackers attempting to log in, indicative of a potential brute force attack. This consolidated view provides insights into the patterns and intensity of the login attempts, aiding in the identification and understanding of the ongoing security threat.</p>
   <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/rename.PNG?raw=true" >
 
@@ -70,8 +70,18 @@ With the Log Analytics workspace successfully configured and connected to the ho
   <p>I conducted IP address lookups on the attackers' IP addresses using AbuseIPDB for further investigation and analysis</p>
   <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/10.PNG?raw=true" >
 
+
   - <h3>Security Incident Event and Alert</h3>
   <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/6.PNG?raw=true" >
+
+
+# Conclusion
+<p>In this project, a small network was set up in Microsoft Azure to simulate a honeynet. Different sources of logs were connected to a Log Analytics workspace. To monitor and respond to security threats, Microsoft Sentinel was used to detect unusual activity and create incidents based on the collected logs.
+
+Before applying any security measures, metrics were recorded in the insecure environment. Then, security controls were implemented, and metrics were measured again to see the impact of these measures. It was found that the number of security events and incidents reduced significantly after implementing the security controls, showing their effectiveness in protecting the network.
+
+However, it is important to consider that if the resources within the network were heavily used by regular users during this 24-hour period after implementing security controls, there might have been more security events and alerts generated. This is because normal user activities can sometimes trigger false positives or be mistaken for malicious behavior.</p>
+  
   
 
   
