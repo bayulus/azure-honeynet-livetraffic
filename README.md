@@ -47,6 +47,39 @@ With the Log Analytics workspace successfully configured and connected to the ho
 
 <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/8.PNG?raw=true" >
 
+<h2>4. Azure Sentinel Integration and Workbook Query</h2>
+<p>This step involved the seamless integration of Azure Sentinel with the existing Log Analytics workspace, creating a unified environment for security monitoring. Leveraging the same workspace ensures a cohesive approach to data analysis and incident response. A custom workbook query, named <b>HoneyPot Failed RDP MAP</b>, was introduced to transform and enrich raw data for enhanced analysis within Azure Sentinel. The integration sets the stage for advanced security analysis within Azure Sentinel. The workbook query extracts critical information, creating a structured dataset for in-depth analysis. Future steps may include rule configuration, visualizations, and response playbooks to fortify the project's security posture in the Azure Sentinel environment.</p>
+
+<img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/3.PNG?raw=true" >
+
+<h2>5. Observation of Brute Force Attacks and Anomalous Activities</h2>
+<p>Following the successful integration of Azure Sentinel and the completion of the entire setup, a crucial phase involved actively monitoring the environment for security events. After patiently waiting for approximately three hours, the system began to detect and log instances of brute force attacks originating from diverse locations.</p>
+
+  - <h3>Visualization of Attack Maps Before Hardening Security/Controls</h3>
+    <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/9.PNG?raw=true">
+         <p>After three hours of system monitoring, notable attack activities were detected, originating from the following locations and IP addresses: Netherlands - 116.130.215.81 & Taiwan - 60.249.86.48</p>
+
+   - <h3>Visualization of Attack Maps After Hardening Security/Controls</h3>
+   <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/7.PNG?raw=true">
+
+  - <h3>Query Result Failed RDP Events Showing Attack Metrics</h3>
+  <p>The query result below also reveals a compilation of usernames utilized by attackers attempting to log in, indicative of a potential brute force attack. This consolidated view provides insights into the patterns and intensity of the login attempts, aiding in the identification and understanding of the ongoing security threat.</p>
+  <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/rename.PNG?raw=true" >
+
+  - <h3>IP Address Lookups on The Attackers' IP</h3>
+  <p>I conducted IP address lookups on the attackers' IP addresses using AbuseIPDB for further investigation and analysis</p>
+  <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/10.PNG?raw=true" >
+
+  - <h3>Security Incident Event and Alert</h3>
+  <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/6.PNG?raw=true" >
+  
+
+  
+
+     
+     
+     
+   
 
 
 
