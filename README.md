@@ -42,6 +42,14 @@ Correlation of data from various sources helps build a comprehensive understandi
 
 With the Log Analytics workspace successfully configured and connected to the honeypot VM, the project is poised to advance to subsequent phases. The focus now shifts towards fine-tuning detection rules, exploring analytics queries, and leveraging the integrated data for a comprehensive security overview within Azure Sentinel.
 
+<h2>3. PowerShell Script Integration for Geolocation Enrichment</h2>
+<p>In general, this PowerShell script is designed to enhance the analysis of failed RDP events by collecting and enriching data with geolocation information. It continuously monitors the Windows Event Viewer, extracts relevant details from failed RDP events, performs IP geolocation lookups, and updates a custom log file. The script's output, including geolocation data, provides valuable insights into the origin of potential security threats. <b></b>When integrated into Azure Sentinel through Log Analytics workspace tables, this enriched data contributes to more effective threat detection and response capabilities</b> </p>
+
+<img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/8.PNG?raw=true" >
+
+
+
+
   
 
 
