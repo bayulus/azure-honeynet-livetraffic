@@ -1,7 +1,7 @@
 # Azure Sentinel: Real-Time Threat Detection + SOC + Honeynet
 <br>
 
-<img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/Blue%20Minimalist%20Profesional%20Personal%20Linkedln%20Banner.png?raw=true" >
+<img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/SOCPRO.png?raw=true" >
 
 <p> This project covers the end-to-end setup of Azure Sentinel, a Security Information and Event Management (SIEM) solution. It includes connecting it to a live virtual machine acting as a honeypot to observe and analyze RDP brute force attacks worldwide. The custom PowerShell script enhances the analysis by looking up attackers' geolocation information and visualizing it on the Azure Sentinel Map.</p>
 
@@ -16,7 +16,7 @@
   - **Step 7:** I establish procedures for responding to security incidents and determine appropriate actions based on the severity of the detected threats.
 
 <p align="center">
-<img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/Sentinerl%20visual.jpg?raw=true"  width="30%">
+<img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/Sentinerl%20visual.jpg?raw=true"  width="70%">
 </p>
 
 <p>Azure Sentinel follows a security operations model that consists of four main phases: Collect, Detect, Investigate, and Respond. These phases are designed to provide a systematic approach to managing and responding to security incidents.</p>
@@ -64,7 +64,7 @@ With the Log Analytics workspace successfully configured and connected to the ho
    <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/7.PNG?raw=true">
 
   - <h3>Query Result of Failed RDP Events Showing Attack Metrics</h3>
-  <p>The query result below also reveals a compilation of usernames utilized by attackers attempting to log in, indicative of a potential brute force attack. This consolidated view provides insights into the patterns and intensity of the login attempts, aiding in the identification and understanding of the ongoing security threat.</p>
+  <p>The query result below also reveals a compilation of usernames utilized by attackers attempting to log in, indicative of a potential brute-force attack. This consolidated view provides insights into the patterns and intensity of the login attempts, aiding in the identification and understanding of the ongoing security threat.</p>
   <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/rename.PNG?raw=true" >
 
   - <h3>IP Address Lookups on The Attackers' IP</h3>
