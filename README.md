@@ -16,7 +16,7 @@
   - **Step 7:** I establish procedures for responding to security incidents and determine appropriate actions based on the severity of the detected threats.
 
 <p align="center">
-<img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/core-capabilities.png?raw=true"  width="70%">
+<img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/core-senti.png?raw=true"  width="70%">
 </p>
 
 <p>Azure Sentinel follows a security operations model that consists of four main phases: Collect, Detect, Investigate, and Respond. These phases are designed to provide a systematic approach to managing and responding to security incidents.</p>
