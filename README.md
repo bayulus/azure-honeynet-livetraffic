@@ -1,7 +1,7 @@
 # Azure Sentinel: Real-Time Threat Detection + SOC + Honeynet
 <br>
 
-<img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/SOCPRO.png?raw=true" >
+<img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/soc.png?raw=true" >
 
 <p> This project covers the end-to-end setup of Azure Sentinel, a Security Information and Event Management (SIEM) solution. It includes connecting it to a live virtual machine acting as a honeypot to observe and analyze RDP brute force attacks worldwide. The custom PowerShell script enhances the analysis by looking up attackers' geolocation information and visualizing it on the Azure Sentinel Map.</p>
 
@@ -16,7 +16,7 @@
   - **Step 7:** I establish procedures for responding to security incidents and determine appropriate actions based on the severity of the detected threats.
 
 <p align="center">
-<img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/Sentinerl%20visual.jpg?raw=true"  width="70%">
+<img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/core-capabilities.png?raw=true"  width="70%">
 </p>
 
 <p>Azure Sentinel follows a security operations model that consists of four main phases: Collect, Detect, Investigate, and Respond. These phases are designed to provide a systematic approach to managing and responding to security incidents.</p>
