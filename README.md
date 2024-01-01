@@ -91,6 +91,9 @@ With the Log Analytics workspace successfully configured and connected to the ho
 Before applying any security measures, metrics were recorded in the insecure environment. Then, security controls were implemented, and metrics were measured again to see the impact of these measures. It was found that the number of security events and incidents reduced significantly after implementing the security controls, showing their effectiveness in protecting the network.
 
 However, it is important to consider that if the resources within the network were heavily used by regular users during this 24-hour period after implementing security controls, there might have been more security events and alerts generated. This is because normal user activities can sometimes trigger false positives or be mistaken for malicious behavior.</p>
+
+[![Static Badge](https://img.shields.io/badge/%20Please%20click%20here%20to%20explore%20additional%20projects-blue?style=for-the-badge)](https://github.com/bayulus/)
+
   
   
 
