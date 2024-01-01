@@ -57,7 +57,8 @@ With the Log Analytics workspace successfully configured and connected to the ho
 
   - <h3>Visualization of Attack Maps Before Hardening Security/Controls</h3>
   <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/9.PNG?raw=true">
-         <p>After three hours of system monitoring, notable attack activities were detected, originating from the following locations and IP addresses: Netherlands - 116.130.215.81 & Taiwan - 60.249.86.48</p>
+  
+  **After three hours of system monitoring, notable attack activities were detected, originating from the following locations and IP addresses: Netherlands - 11_6.130.215.81 & Taiwan - 60.249.86.48**
 
    - <h3>Visualization of Attack Maps After Hardening Security/Controls</h3>
    <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/7.PNG?raw=true">
