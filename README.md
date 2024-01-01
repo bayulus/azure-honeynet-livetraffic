@@ -5,6 +5,15 @@
 
 <p> This project covers the end-to-end setup of Azure Sentinel, a Security Information and Event Management (SIEM) solution. It includes connecting it to a live virtual machine acting as a honeypot to observe and analyze RDP brute force attacks worldwide. The custom PowerShell script enhances the analysis by looking up attackers' geolocation information and visualizing it on the Azure Sentinel Map.</p>
 
+💻 **Languages and Tools Used For This Project:** 🛠️
+
+![Static Badge](https://img.shields.io/badge/Azure%20Sentinel-blue?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/SQL-blue?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Microsoft%20PowerShell-blue?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Log%20Analytics%20Workspace-blue?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/VIRTUAL%20MACHINE-blue?style=for-the-badge)
+
+
 <h2>Here's A High-Level Outline of The Steps I Took For This Project 💫</h2>
 
   - **Step 1:** I set up an Azure Sentinel workspace to collect and analyze security data.
