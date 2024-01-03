@@ -71,6 +71,8 @@ With the Log Analytics workspace successfully configured and connected to the ho
 
    - <h3>Visualization of Attack Maps After Hardening Security/Controls</h3>
    <img src="https://github.com/bayulus/azure-honeynet-livetraffic/blob/main/images/7.PNG?raw=true">
+   
+   **After implementing robust security controls, I measured the following metrics in our environment for an additional 24 hours. The results are promising: there is little to no evidence of any form of attack. It's noteworthy that the green color on the attack map, indicating activity, is attributed to one of our employees—yours truly! 🟢 This unintentional test reaffirms the effectiveness of the security measures in fortifying our network against potential threats.**
 
   - <h3>Query Result of Failed RDP Events Showing Attack Metrics</h3>
   <p>The query result below also reveals a compilation of usernames utilized by attackers attempting to log in, indicative of a potential brute-force attack. This consolidated view provides insights into the patterns and intensity of the login attempts, aiding in the identification and understanding of the ongoing security threat.</p>
